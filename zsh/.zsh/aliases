@@ -10,6 +10,7 @@ alias prj='cd $HOME/projects'
 alias neofetch='fastfetch'
 alias nv='nvim'
 alias lzg='lazygit'
+alias lzd='lazydocker'
 
 # Others
 alias cl='clear'
