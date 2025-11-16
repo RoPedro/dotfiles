@@ -11,6 +11,9 @@ alias neofetch='fastfetch'
 alias nv='nvim'
 alias lzg='lazygit'
 alias lzd='lazydocker'
+alias cdf='cd $(fd --type d \
+  --exclude .git --exclude Steam --exclude .steam \
+  | fzf --preview "ls -la {}")'
 
 # Others
 alias cl='clear'

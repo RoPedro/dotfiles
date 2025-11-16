@@ -16,6 +16,9 @@ bindkey -e
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/dev/.zshrc'
 
+# Shortcuts
+bindkey -s '^f' 'cdf\n'
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
