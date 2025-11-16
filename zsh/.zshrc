@@ -17,7 +17,7 @@ bindkey -e
 zstyle :compinstall filename '/home/dev/.zshrc'
 
 # Shortcuts
-bindkey -s '^f' 'cdf\n'
+bindkey -s '^v' 'cdf\n'
 
 autoload -Uz compinit
 compinit
