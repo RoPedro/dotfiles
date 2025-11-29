@@ -16,6 +16,9 @@ bindkey -e
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/dev/.zshrc'
 
+# Shortcuts
+bindkey -s '^v' 'cdf\n'
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
@@ -27,3 +30,5 @@ source ~/.zsh/rc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+. "$HOME/.local/bin/env"
